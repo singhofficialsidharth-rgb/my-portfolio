@@ -1,13 +1,30 @@
 import React from "react";
-import { GraduationCap, Award, CheckCircle } from "lucide-react";
+import { GraduationCap, Award, CheckCircle, ExternalLink } from "lucide-react";
 
 export default function Credentials() {
+  // Update your certifications into objects with name and link keys
   const certifications = [
-    "Google Data Analytics Professional Certificate (Coursera)",
-    "Advanced MS Excel Suite Credentials (Udemy)",
-    "Data Analytics Simulation Course — Forage (Accenture)",
-    "Prompt Engineering for ChatGPT (Vanderbilt University)",
-    "Internal Audit Analyst Virtual Experience (JPMorgan Chase & Co.)",
+    {
+      name: "Google Advanced Analytics Professional Certificate (Coursera)",
+      link: "https://coursera.org/verify/professional-cert/ZLLB36YT6TUP" 
+    },
+    {
+      name: "Advanced MS Excel Suite Credentials (Udemy)",
+      link: "https://www.udemy.com/certificate/UC-328dbdae-b397-4bcc-8910-60828c7e9ee7/"
+    },
+    {
+      name: "Prompt Engineering for ChatGPT (Vanderbilt University)",
+      link: "https://www.coursera.org/account/accomplishments/certificate/V45ZQEYRT2UR"
+    },
+    {
+      name: "Data Analytics Simulation Course — Forage (Accenture)",
+      link: "https://l1nq.com/41h8les"
+    },
+    {
+      name: "Internal Audit Analyst Virtual Experience (JPMorgan Chase & Co.)",
+      link: "https://shorturl.at/IEYwc"
+    },
+   
   ];
 
   return (
@@ -108,11 +125,21 @@ export default function Credentials() {
                 >
                   <CheckCircle
                     size={16}
-                    className="text-emerald-400 mt-1 flex-shrink-0"
+                    className="text-emerald-400 mt-1 shrink-0"
                   />
-                  <p className="text-sm text-gray-300 font-medium leading-relaxed">
-                    {cert}
-                  </p>
+                  {/* Made the container an interactive anchor tag */}
+                  <a 
+                    href={cert.link}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="group flex items-center gap-2 text-sm text-gray-300 font-medium leading-relaxed hover:text-neon transition-colors duration-200 text-left"
+                  >
+                    <span>{cert.name}</span>
+                    <ExternalLink 
+                      size={13} 
+                      className="text-gray-500 group-hover:text-neon  shrink-0 opacity-0 group-hover:opacity-100 transition-opacity duration-200" 
+                    />
+                  </a>
                 </div>
               ))}
             </div>
