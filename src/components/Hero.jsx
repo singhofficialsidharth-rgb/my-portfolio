@@ -43,7 +43,7 @@ export default function Hero() {
           
           {/* DOWNLOAD RESUME BUTTON */}
           <a 
-            href="./Resume.pdf" 
+            href="/Resume.pdf" 
             download="Resume.pdf"
             className="bg-neon/10 border border-neon/30 hover:bg-neon/20 text-neon font-medium text-sm px-5 py-2.5 rounded-lg flex items-center justify-center gap-2 transition text-center"
           >
