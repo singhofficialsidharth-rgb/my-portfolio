@@ -1,4 +1,3 @@
-import React from 'react';
 import { Briefcase, Calendar } from 'lucide-react';
 
 export default function Experience() {
@@ -34,6 +33,35 @@ export default function Experience() {
               <li>Analyzed massive datasets using Power BI to build high-impact interactive data visualizations and executive summaries.</li>
               <li>Utilized Python programming modules (Pandas, NumPy, and Matplotlib) for algorithmic data cleaning, filtering, and metric calculation.</li>
               <li>Partnered on real-world industrial intelligence projects to translate raw performance figures into actionable strategic decisions.</li>
+            </ul>
+          </div>
+        </div>
+
+        {/* Timeline item */}
+        <div className="relative">
+          {/* Dot node */}
+          <div className="absolute -left-[31px] top-1.5 w-4 h-4 rounded-full bg-neon border-4 border-darkBg shadow-[0_0_10px_#38BDF8]"></div>
+
+          <div className="bg-bg-card border border-gray-800/60 rounded-xl p-6 md:p-8 space-y-4">
+            <div className="flex flex-col md:flex-row md:items-center justify-between gap-2">
+              <div>
+                <h3 className="text-xl font-bold text-white flex items-center gap-2">
+                  <Briefcase size={18} className="text-neon" />
+                  AI &amp; Python Trainee
+                </h3>
+                <p className="text-sm font-medium text-purple mt-1">ShapeMySkills</p>
+              </div>
+              <div className="inline-flex items-center gap-1.5 text-xs font-mono bg-gray-900 text-gray-400 px-3 py-1 rounded-md border border-gray-800 w-fit">
+                <Calendar size={12} />
+                <span>Training Experience</span>
+              </div>
+            </div>
+
+            <ul className="space-y-3 text-sm text-gray-400 list-disc list-inside marker:text-neon">
+              <li>Analyzed and cleaned large datasets using SQL, Python, and Excel to improve data quality and support decision-making.</li>
+              <li>Developed interactive dashboards in Power BI to visualize key business metrics and generate actionable insights.</li>
+              <li>Performed exploratory data analysis (EDA), feature engineering, and predictive modeling using machine learning algorithms.</li>
+              <li>Collaborated with team members to deliver data-driven solutions while documenting findings and presenting results effectively.</li>
             </ul>
           </div>
         </div>
