@@ -14,9 +14,9 @@ export default function Projects() {
         <div className="group bg-bg-card border border-gray-800/80 rounded-2xl overflow-hidden hover:border-neon/40 transition duration-300">
           <div className="p-8 space-y-4">
             <div className="flex justify-between items-start">
-              <span className="text-xs font-mono bg-neon/10 text-neon px-2.5 py-1 rounded-md">Power BI & Financial Analytics</span>
+              <span className="text-xs font-mono bg-neon/10 text-neon px-2.5 py-1 rounded-md">Data Cleaning and AI Model Creation</span>
               <div className="flex gap-3 text-gray-400">
-                <a href="#" className="hover:text-white"><GitBranch size={18} /></a>
+                <a href="https://github.com/singhofficialsidharth-rgb/house-price-predictor" className="hover:text-white"><GitBranch size={18} /></a>
                 <a href="#" className="hover:text-white"><ExternalLink size={18} /></a>
               </div>
             </div>
