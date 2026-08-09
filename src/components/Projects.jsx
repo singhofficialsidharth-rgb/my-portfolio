@@ -22,13 +22,13 @@ export default function Projects() {
             </div>
             <div className="flex items-center gap-2">
               <BarChart3 size={20} className="text-neon" />
-              <h3 className="text-xl font-bold text-white group-hover:text-neon transition">Credit Card Transaction Reporting Dashboard</h3>
+              <h3 className="text-xl font-bold text-white group-hover:text-neon transition">Real State House Price Prediction</h3>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed">
-              Developed an institutional reporting platform tracking transactional flows, volume anomalies, and user spending behavior. Optimized operational tracking grids to assist risk management assessments.
+              Created and Deployed Model for predicting house price with the help of Machine Learning. Cleaned Dataset, Feature Engineering, Model Creation, Model Analysis, Model Deployment through HTML CSS JS Flask. 
             </p>
             <div className="flex flex-wrap gap-2 pt-2 text-xs font-mono text-gray-500">
-              <span>#FinancialMetrics</span> <span>#RiskReporting</span> <span>#DataVisualization</span>
+              <span>#Data Cleaning</span> <span>#Model Creation</span> <span>#DataVisualization</span><span>#Model Analysis</span>
             </div>
           </div>
         </div>
