@@ -39,7 +39,7 @@ export default function Projects() {
             <div className="flex justify-between items-start">
               <span className="text-xs font-mono bg-purple/10 text-purple px-2.5 py-1 rounded-md">Power BI & Time Series</span>
               <div className="flex gap-3 text-gray-400">
-                <a href="#" className="hover:text-white"><GitBranch size={18} /></a>
+                <a href="https://github.com/singhofficialsidharth-rgb/sales-dashboard-analysis" className="hover:text-white"><GitBranch size={18} /></a>
                 <a href="#" className="hover:text-white"><ExternalLink size={18} /></a>
               </div>
             </div>
